@@ -28,6 +28,10 @@ import ProdutoAnimation from './pages/produtoAnimation/ProdutoAnimation';
 import ProjetoAnimation from './pages/projetoAnimation/ProjetoAnimation';
 import ExImagens from './pages/exImagens/ExImagens';
 import Routers from './pages/routers/Routers';
+import PropTypesEx from './pages/propTypes/PropTypesEx';
+import LazySuspense from './pages/lazySuspense/LazySuspense';
+import MemoRender from './pages/memoRender/MemoRender';
+import UserReducerEx from './pages/useReducerEx/UserReducerEx';
 
 function App() {
 	return (
@@ -56,7 +60,11 @@ function App() {
 		// <ProdutoAnimation />
 		// <ProjetoAnimation />
 		// <ExImagens />
-		<Routers />
+		// <Routers />
+		// <PropTypesEx />
+		// <LazySuspense />
+		// <MemoRender />
+		<UserReducerEx />
 		);
 }
 
