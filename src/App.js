@@ -32,6 +32,7 @@ import PropTypesEx from './pages/propTypes/PropTypesEx';
 import LazySuspense from './pages/lazySuspense/LazySuspense';
 import MemoRender from './pages/memoRender/MemoRender';
 import UserReducerEx from './pages/useReducerEx/UserReducerEx';
+import Api from './pages/api/Api';
 
 function App() {
 	return (
@@ -64,7 +65,8 @@ function App() {
 		// <PropTypesEx />
 		// <LazySuspense />
 		// <MemoRender />
-		<UserReducerEx />
+		// <UserReducerEx />
+        <Api /> 
 		);
 }
 
